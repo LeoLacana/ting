@@ -1,0 +1,8 @@
+ignore_files:
+  - statics/
+  - tests/
+  - dev-requirements.txt
+  - pyproject.toml
+  - requirements.txt
+  - setup.cfg
+  - setup.py

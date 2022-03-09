@@ -1,0 +1,89 @@
+{
+  "requirements": [
+    {
+      "identifier": "test_enqueue_deve_adicionar_um_valor_a_fila",
+      "description": "1.1 - Será validado que o método `enqueue` deve adicionar um valor a fila, modificando seu tamanho",
+      "bonus": false
+    },
+    {
+      "identifier": "test_dequeue_deve_remover_um_valor_a_fila",
+      "description": "1.2 - Será validado que o método `dequeue` deve remover o elemento a mais tempo na fila, modificando seu tamanho",
+      "bonus": false
+    },
+    {
+      "identifier": "test_search_deve_buscar_um_valor_a_partir_de_um_indice",
+      "description": "1.3 - Será validado que o método `search` deve buscar um valor na lista à partir de um índice",
+      "bonus": false
+    },
+    {
+      "identifier": "test_search_com_indice_invalido",
+      "description": "1.4 - Será validado que o método `search` deve lançar uma exceção quando o índice for inválido",
+      "bonus": false
+    },  
+    {
+      "identifier": "test_validar_importar_noticias_com_sucesso",
+      "description": "2.1 - Será validado que ao executar o método `txt_importer` deve retornar uma estrutura contendo as linhas do arquivo",
+      "bonus": false
+    },
+    {
+      "identifier": "test_validar_importar_com_extencao_invalida",
+      "description": "2.2 - Será validado que ao executar o método `txt_importer` com um arquivo TXT que não exista, deve ser exibida a mensagem: `Arquivo {path_file} não encontrado`",
+      "bonus": false
+    },
+    {
+      "identifier": "test_validar_importar_com_arquivo_nao_existente",
+      "description": "2.3 - Será validado que ao executar o método `txt_importer` com uma extensão diferente de `.txt`, deve ser exibida uma mensagem: `Formato inválido`",
+      "bonus": false
+    },
+    {
+      "identifier": "test_validar_funcao_process_ignorando_mesmo_nome",
+      "description": "3.1 - Será validado que ao executar a função `process` com o mesmo nome a execução deverá ser ignorada",
+      "bonus": false
+    },
+    {
+      "identifier": "test_validar_funcao_process_com_sucesso",
+      "description": "3.2 - Será validado que ao executar a função `process` com sucesso deverá retornar mensagem via `stdout`",
+      "bonus": false
+    },
+    {
+      "identifier": "test_remover_arquivo_com_sucesso",
+      "description": "4.1 - Será validado que ao executar a função `remove` com sucesso deverá retornar mensagem via `stdout`",
+      "bonus": false
+    },
+    {
+      "identifier": "test_remover_arquivo_inexistente",
+      "description": "4.2 - Será validado que ao executar a função `remove` um arquivo inexistente deverá retornar a mensagem `Não há elementos`",
+      "bonus": false
+    },
+    {
+      "identifier": "test_validar_funcao_file_metadata_com_sucesso",
+      "description": "5.1 - Será validado que ao executar a função `file_metadata` com sucesso deverá retornar mensagem via `stdout`",
+      "bonus": false
+    },
+    {
+      "identifier": "test_validar_funcao_file_metadata_com_posicao_invalida",
+      "description": "5.2 - Será validado que ao executar a função `file_metadata` com posição inválida deverá retornar a mensagem `Posição inválida`",
+      "bonus": false
+    },
+    {
+      "identifier": "test_validar_funcao_exists_word_com_sucesso",
+      "description": "6.1 - Será validado que ao executar a função `exists_word` com sucesso deverá retornar a mensagem",
+      "bonus": false
+    },
+    {
+      "identifier": "test_validar_funcao_exists_word_sem_palavra_existente",
+      "description": "6.2 - Será validado que ao executar a função `exists_word` com palavra inexistente deverá retornar uma lista vazia",
+      "bonus": false
+    },
+    {
+      "identifier": "test_validar_search_by_word_com_sucesso",
+      "description": "7.1 - Será validado que ao executar a função `search_by_word` com sucesso deverá retornar a mensagem",
+      "bonus": false
+    },
+    {
+      "identifier": "test_validar_search_by_word_com_palavra_inexistente",
+      "description": "7.2 - Será validado que ao executar a função `search_by_word` com palavra inexistente deverá retornar uma lista vazia",
+      "bonus": false
+    }  
+  ]
+}
