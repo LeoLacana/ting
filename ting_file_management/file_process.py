@@ -1,4 +1,3 @@
-from email import message
 import sys
 from ting_file_management.file_management import txt_importer
 
@@ -22,8 +21,10 @@ def process(path_file, instance):
 def remove(instance):
     if not len(instance.queue_list):
         return sys.stdout.write("Não há elementos\n")
-    else:   
-        return sys.stdout.write(f"Arquivo {instance.dequeue()} removido com sucesso\n")
+    else:
+        return sys.stdout.write(
+            f"Arquivo {instance.dequeue()} removido com sucesso\n"
+        )
 
 
 def file_metadata(instance, position):
