@@ -30,8 +30,8 @@ def remove(instance):
 def file_metadata(instance, position):
     """Aqui irá sua implementação"""
     try:
-        file = txt_importer(path)
         path = instance.search(position)
+        file = txt_importer(path)
         processed_data = {
             "nome_do_arquivo": path,
             "qtd_linhas": len(file),
