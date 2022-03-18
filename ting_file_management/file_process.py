@@ -30,12 +30,12 @@ def remove(instance):
 def file_metadata(instance, position):
     """Aqui irá sua implementação"""
     try:
-        path_file = instance.search(position)
-        file_content = txt_importer(path_file)
+        file = txt_importer(path)
+        path = instance.search(position)
         processed_data = {
-            "nome_do_arquivo": path_file,
-            "qtd_linhas": len(file_content),
-            "linhas_do_arquivo": file_content,
+            "nome_do_arquivo": path,
+            "qtd_linhas": len(file),
+            "linhas_do_arquivo": file,
         }
         return sys.stdout.write(str(processed_data))
     except IndexError:
